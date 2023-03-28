@@ -1,0 +1,28 @@
+ <!-- form handling -->
+ <form action="/api/users" method="POST" id="add_user">
+    <div class="new_user">
+        <div class="form-group">
+            <label for="name" class="text-light">Name</label>
+            <input type="hidden" name="id" value="">
+            <input type="text" name="name" value="" placeholder="Your name">
+        </div>
+        <div class="form-group">
+            <label for="surname" class="text-light">Surname</label>
+            <input type="text" name="surname" value="" placeholder="Your Surname">
+        </div>
+        <div class="form-group">
+            <label for="midterm" class="text-light">Midterm</label>
+            <input type="text" name="midterm" value="" placeholder="Midterm">
+        </div>
+        <div class="form-group">
+            <label for="final" class="text-light">Final</label>
+            <input type="text" name="final" value="" placeholder="Final">
+        </div>
+
+
+        <div class="form-group">
+            <button type="submit" class="btn text-dark update">Save</button>
+        </div>
+
+    </div>
+</form>
